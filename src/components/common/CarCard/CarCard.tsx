@@ -27,11 +27,13 @@ export const CarCard: React.FC<CarCardProps> = ({
   return (
     <div className="bg-[#fafafa] rounded-[20px] p-6 flex flex-col gap-10 items-center justify-start shrink-0 w-[416px] relative overflow-hidden">
       <div className="flex flex-col gap-5 items-center justify-start self-stretch shrink-0 relative">
-        <img
-          className="self-stretch shrink-0 h-60 relative overflow-hidden object-contain"
-          src={imgSrc}
-          alt={altText}
-        />
+        <div className="flex items-center justify-center w-full h-[240px] bg-gray-100 rounded-xl overflow-hidden">
+          <img
+            className="max-w-full max-h-full object-contain"
+            src={imgSrc}
+            alt={altText}
+          />
+        </div>
         <div className="flex flex-col gap-10 items-center justify-start self-stretch shrink-0 relative">
           <div className="flex flex-row items-start justify-between self-stretch shrink-0 relative">
             <div className="flex flex-col gap-1 items-start justify-start shrink-0 relative">

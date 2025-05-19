@@ -3,7 +3,9 @@ import "./tailwind.css";
 import { Homepage } from "./components/MainPage/Homepage/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { Vehicles } from "./components/VehiclesPage/Vehicles/Vehicles";
+import { CarDetails } from "./components/CarDetailsPage/CarDetails/CarDetails";
 import { ContactUs } from "./components/ContactUs/ContactUs";
+
 
 // Placeholder components for other pages
 const AboutUsPage = () => <div>About Us Page</div>;
@@ -20,6 +22,7 @@ export default function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/car-details" element={<CarDetails />} />
       </Routes>
     </BrowserRouter>
   );

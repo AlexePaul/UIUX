@@ -3,6 +3,7 @@ import { G17 } from "../G17/G17";
 import { G1593 } from "../G1593/G1593";
 import { Navbar } from '../../common/Navbar/Navbar';
 import { CarCard } from '../../common/CarCard/CarCard';
+import { Link } from "react-router";
 
 export interface IVehiclesProps {
   className?: string;
@@ -191,7 +192,9 @@ export const Vehicles = ({
               ac: true,
             },
           ].map((car, idx) => (
-            <CarCard key={idx} {...car} />
+            <Link to="/car-details" key={idx}>
+              <CarCard {...car} />
+            </Link>
           ))}
         </div>
         <div className="bg-[#fafafa] rounded-[40px] pt-[60px] pr-10 pb-[60px] pl-10 flex flex-row items-center justify-between shrink-0 w-[1296px] relative">
