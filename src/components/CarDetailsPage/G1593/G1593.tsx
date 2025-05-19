@@ -6,7 +6,7 @@ export const G1593 = ({ className, ...props }: IG1593Props): JSX.Element => {
   return (
     <div
       className={"w-6 h-6 relative " + className}
-      style={{ transformOrigin: "0 0", transform: "rotate(0deg) scale(1, -1)" }}
+      style={{ transformOrigin: "0 0", transform: "rotate(0deg)" }}
     >
       <img
         className="h-[auto] absolute left-0 top-0 overflow-visible"

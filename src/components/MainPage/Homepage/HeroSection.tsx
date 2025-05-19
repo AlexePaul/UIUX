@@ -6,7 +6,7 @@ export const HeroSection: React.FC = () => {
     <div className="bg-[#ec0868] rounded-[40px] px-[72px] flex flex-row items-center justify-between self-stretch h-[660px] relative overflow-hidden">
       {/* TyreMarks.svg as faded background, top-left */}
       <img
-        src="/Homepage/tyre.svg"
+        src="tyre-marks.svg"
         alt="Tyre marks background pattern"
         className="absolute left-0 top-0 w-[700px] h-auto opacity-[0.13] z-0 select-none pointer-events-none"
         draggable="false"

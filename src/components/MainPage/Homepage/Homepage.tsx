@@ -76,9 +76,9 @@ export const Homepage = ({
           {/* Placeholder for Car Cards - map through car data here */}
           {/* Example Car Card Structure (repeat for each car, replace with dynamic data) */}
           {[
-            { id: 1, name: "Mercedes", type: "Sedan", price: "$25", imgSrc: "/img1.png", altText: "Mercedes Sedan" },
-            { id: 2, name: "Mercedes", type: "Sport", price: "$50", imgSrc: "/img2.png", altText: "Mercedes Sport" },
-            { id: 3, name: "Mercedes", type: "SUV", price: "$40", imgSrc: "/img3.png", altText: "Mercedes SUV" },
+            { id: 1, name: "Mercedes", type: "Sedan", price: "$25", imgSrc: "/VehiclesPage/img0.png", altText: "Mercedes Sedan" },
+            { id: 2, name: "Mercedes", type: "Sport", price: "$50", imgSrc: "/VehiclesPage/img1.png", altText: "Mercedes Sport" },
+            { id: 3, name: "Mercedes", type: "SUV", price: "$40", imgSrc: "/VehiclesPage/img2.png", altText: "Mercedes SUV" },
             // Add more car objects as needed, up to 6 for two rows if desired
           ].map((car) => (
             <div key={car.id} className="bg-[#fafafa] rounded-[20px] p-6 flex flex-col gap-10 items-center justify-start shrink-0 w-[416px] relative overflow-hidden">
@@ -120,13 +120,13 @@ export const Homepage = ({
                     </div>
                   </div>
                   <div className="flex flex-row items-center justify-between self-stretch shrink-0 relative px-2"> {/* Changed items-start to items-center for vertical alignment */}
-                    {/* Group 1: Automat */}
+                    {/* Group 1: Automatic */}
                     <div className="flex flex-col items-center justify-start gap-1 w-1/3 pt-1"> {/* Added pt-1 for slight downward adjustment if needed */}
                       <GearShift11 className="!shrink-0 w-5 h-5" />
                       <div
                         className="text-[rgba(0,0,0,0.60)] text-center font-['WorkSans-Regular',_sans-serif] text-xs font-normal relative"
                       >
-                        Automat
+                        Automatic
                       </div>
                     </div>
                     {/* Group 2: PB 95 */}

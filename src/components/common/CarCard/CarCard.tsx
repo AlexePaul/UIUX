@@ -54,19 +54,19 @@ export const CarCard: React.FC<CarCardProps> = ({
             </div>
           </div>
           <div className="flex flex-row items-center justify-between self-stretch shrink-0 relative px-2">
-            <div className="flex flex-col items-center justify-start gap-1 w-1/3 pt-1">
+            <div className="flex flex-row items-center justify-start gap-1 w-1/3 pt-1">
               <GearShift11 className="!shrink-0 w-5 h-5" />
               <div className="text-[rgba(0,0,0,0.60)] text-center font-['WorkSans-Regular',_sans-serif] text-xs font-normal relative">
                 {transmission}
               </div>
             </div>
-            <div className="flex flex-col items-center justify-start gap-1 w-1/3 pt-1">
+            <div className="flex flex-row items-center justify-start gap-1 w-1/3 pt-1">
               <G17 className="!shrink-0 w-5 h-5" />
               <div className="text-[rgba(0,0,0,0.60)] text-center font-['WorkSans-Regular',_sans-serif] text-xs font-normal relative">
                 {fuel}
               </div>
             </div>
-            <div className="flex flex-col items-center justify-start gap-1 w-1/3 pt-1">
+            <div className="flex flex-row items-center justify-start gap-1 w-1/3 pt-1">
               {ac && <G1593 className="!shrink-0 w-5 h-5" />}
               <div className="text-[rgba(0,0,0,0.60)] text-center font-['WorkSans-Regular',_sans-serif] text-xs font-normal relative whitespace-normal">
                 Air Conditioner

@@ -12,7 +12,7 @@ export const Frame124 = ({
         "rounded-[50px] flex flex-col items-center justify-between shrink-0 w-6 h-6 relative overflow-visible " +
         className
       }
-      src="frame-124.svg"
+      src="check-purple.svg"
     />
   );
 };
