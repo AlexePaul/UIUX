@@ -1,0 +1,2 @@
+// This file is used to ensure all AboutUs public assets are present in the main public directory.
+// If the file already exists, it will be overwritten with the AboutUs version.

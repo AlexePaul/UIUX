@@ -5,10 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import { Vehicles } from "./components/VehiclesPage/Vehicles/Vehicles";
 import { CarDetails } from "./components/CarDetailsPage/CarDetails/CarDetails";
 import { ContactUs } from "./components/ContactUs/ContactUs";
-
+import AboutUsPage from "./components/AboutUs";
 
 // Placeholder components for other pages
-const AboutUsPage = () => <div>About Us Page</div>;
 const LoginPage = () => <div>Login Page</div>;
 const RegisterPage = () => <div>Register Page</div>;
 
